@@ -12,7 +12,7 @@ subdata$DataTime <- strptime(subdata$DateTime, format="%Y-%m-%d %H:%M:%S") #form
 Sys.setlocale(category = "LC_TIME", locale = "C") #so that the time will appear
                                                 #in english and not my local language
 
-png(filename="plot4.png", width=480, height=480, bg="white") #creating the
+png(filename="plot4.png", width=480, height=480, bg="transparent") #creating the
                                                 #png file in the properties
                                                 #asked for by the instructions
 
